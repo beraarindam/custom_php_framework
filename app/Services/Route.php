@@ -49,7 +49,7 @@ class Route{
 				return;
 			}
 		}
-		echo '404 - page not found';
+		dd("404 Page Not Found!");
 	}
 
 

@@ -11,8 +11,7 @@ if(!function_exists('view')):
 		if(file_exists($file)){
 			return require $file;
 		}
-
-		dd('<h1 style="color:red;">'.$path.' '.'view do not exist</h1>');
+		dd($path.' '.'view page doesn'.'"t'.' exist');
 	}
 endif;
 
@@ -31,8 +30,10 @@ endif;
 
 if(!function_exists('dd')):
 	function dd($data){
+		// echo "<body style='background:black;'>";
 		echo "<pre>";
 		print_r($data);
 		echo "</pre>";
+		// echo "</body>";
 	}
 endif;
