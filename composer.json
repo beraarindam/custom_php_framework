@@ -1,0 +1,20 @@
+{
+    "name": "arindam/custom_php_framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files":[
+            "app/Helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Arindam Bera",
+            "email": "abera0275@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^7.1"
+    }
+}
