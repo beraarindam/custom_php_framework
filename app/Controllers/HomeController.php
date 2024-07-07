@@ -12,6 +12,9 @@ class HomeController extends BaseController{
 	}
 
 	public function about_us(){
-		$this->render('about-us');
+		$data = [
+			'title'	=>'About us'
+		];
+		$this->render('about-us',$data);
 	}
 }
