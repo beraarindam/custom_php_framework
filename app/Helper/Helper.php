@@ -6,7 +6,7 @@ if(!function_exists('view')):
 
 		$path = str_replace('.',DIRECTORY_SEPARATOR,$path);
 
-		$file = APP_ROOT.DIRECTORY_SEPARATOR.'view'.DIRECTORY_SEPARATOR.$path.'.php';
+		$file = APP_ROOT.DIRECTORY_SEPARATOR.'view'.DIRECTORY_SEPARATOR.$path.'.tpl';
 		
 		if(file_exists($file)){
 			return require $file;
@@ -24,7 +24,7 @@ endif;
 
 if(!function_exists('pageAdd')):
 	function pageAdd($file_path){
-		include(APP_ROOT.'/pages/'.$file_path);
+		include(APP_ROOT.'/view/'.$file_path);
 	}
 endif;
 
@@ -37,3 +37,8 @@ if(!function_exists('dd')):
 		// echo "</body>";
 	}
 endif;
+
+// create name route function
+function name($routeName){
+	echo $routeName;
+}

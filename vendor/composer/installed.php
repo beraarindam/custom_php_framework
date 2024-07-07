@@ -3,7 +3,7 @@
         'name' => 'arindam/custom_php_framework',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'd7bd60c7f4d5419abe9e88e28a4e9c018f2645b2',
+        'reference' => '100b26263fae5c60632370e29e39de61a7a35829',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'arindam/custom_php_framework' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'd7bd60c7f4d5419abe9e88e28a4e9c018f2645b2',
+            'reference' => '100b26263fae5c60632370e29e39de61a7a35829',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -33,6 +33,15 @@
             'provided' => array(
                 0 => '1.0|2.0|3.0',
             ),
+        ),
+        'smarty/smarty' => array(
+            'pretty_version' => 'v5.3.1',
+            'version' => '5.3.1.0',
+            'reference' => '3cb35854326a94120cd415b81db28c53d95d0d5d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../smarty/smarty',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'symfony/console' => array(
             'pretty_version' => 'v7.1.2',

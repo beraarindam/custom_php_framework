@@ -5,10 +5,13 @@ use App\Controllers\BaseController;
 
 class HomeController extends BaseController{
 	public function index(){
-		view('index');
+		$data = [
+			'title'	=> 'Home'
+		];
+		$this->render('auth/login',$data);
 	}
 
 	public function about_us(){
-		view('about-us');
+		$this->render('about-us');
 	}
 }

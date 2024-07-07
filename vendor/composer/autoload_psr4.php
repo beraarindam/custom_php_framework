@@ -13,6 +13,7 @@ return array(
     'Symfony\\Contracts\\Service\\' => array($vendorDir . '/symfony/service-contracts'),
     'Symfony\\Component\\String\\' => array($vendorDir . '/symfony/string'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'Smarty\\' => array($vendorDir . '/smarty/smarty/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'App\\' => array($baseDir . '/app'),
 );

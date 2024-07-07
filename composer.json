@@ -15,6 +15,7 @@
         }
     ],
     "require": {
-        "symfony/console": "^7.1"
+        "symfony/console": "^7.1",
+        "smarty/smarty": "^5.3"
     }
 }

@@ -1,6 +1,6 @@
 <?php
-use App\Services\Route;
+use App\Config\Route;
 
 
 Route::get('','HomeController','index');
-Route::get('about-us','HomeController','about_us');
+Route::get('about-us','HomeController','about_us','ttt');
